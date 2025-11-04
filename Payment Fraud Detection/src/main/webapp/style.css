@@ -12,6 +12,7 @@
     h2 {
         margin-bottom: 20px;
     }
+
     a {
         background: white;
         color: #007bff;
@@ -40,7 +41,6 @@ body {
   color: white;
 }
 
-/* Background overlay for dark tint */
 .overlay {
   position: absolute;
   top: 0; left: 0;
@@ -49,7 +49,7 @@ body {
   z-index: 0;
 }
 
-/* Hero Section */
+
 .hero-container {
   position: relative;
   z-index: 2;
@@ -136,7 +136,6 @@ nav .btn:hover {
   transform: scale(1.05);
 }
 
-/* Add smooth fade in effect */
 body {
   animation: fadeIn 2s ease-in-out;
 }
@@ -145,4 +144,3 @@ body {
   from { opacity: 0; }
   to { opacity: 1; }
 }
-
